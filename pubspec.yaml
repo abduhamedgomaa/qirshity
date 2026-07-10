@@ -1,0 +1,50 @@
+name: qirshity
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_localizations:
+    sdk: flutter
+  font_awesome_flutter: ^11.0.0
+  fl_chart: ^0.65.0
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/coin.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/coin.png
+
+  fonts:
+    - family: Alexandria
+      fonts:
+        - asset: assets/fonts/Alexandria-VariableFont_wght.ttf
+
+    - family: TintaArabic
+      fonts:
+        - asset: assets/fonts/TintaArabic-Light.otf
+          weight: 300
+        - asset: assets/fonts/TintaArabic-Bold.otf
+          weight: 700
